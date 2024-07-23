@@ -39,8 +39,8 @@ For the float32 model (CPU):
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model = AutoModelForCausalLM.from_pretrained("EleutherAI/gpt-j-6B")
-tokenizer = AutoTokenizer.from_pretrained("ykilcher/gpt-4chan")
+model = AutoModelForCausalLM.from_pretrained("ykilcher/gpt-4chan")
+tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-j-6B")
 
 prompt = (
     "In a shocking finding, scientists discovered a herd of unicorns living in a remote, "
